@@ -27,6 +27,6 @@ public class Exercicio1 {
 
         }
 
-        System.out.println("A quantidade de numeros pares digitados é de : " +  numerosPares);
+        System.out.println("A quantidade de números pares digitados é de : " +  numerosPares);
     }
 }

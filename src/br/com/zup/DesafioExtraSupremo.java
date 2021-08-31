@@ -19,18 +19,18 @@ public class DesafioExtraSupremo {
         System.out.println("Olá, qual será a quantidade de números que você irá digitar?");
         qtdDeNumeros = leitor.nextInt();
 
-        while(contador <= qtdDeNumeros){
+        while (contador <= qtdDeNumeros) {
             System.out.println("Digite o número " + contador + " :");
             numeroDigitado = leitor.nextInt();
 
-            if(contador == 1){
+            if (contador == 1) {
                 menorValor = numeroDigitado;
                 maiorValor = numeroDigitado;
             }
-            else if (numeroDigitado < menorValor){
+            if (numeroDigitado < menorValor) {
                 menorValor = numeroDigitado;
             }
-            else if(numeroDigitado > maiorValor){
+            if (numeroDigitado > maiorValor) {
                 maiorValor = numeroDigitado;
             }
 
